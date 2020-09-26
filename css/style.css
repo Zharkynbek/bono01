@@ -48,6 +48,14 @@ body {
   font-size: 30px;
 }
 
+.second {
+  background-color: rgb(146, 85, 85);
+}
+
+#hobbys {
+  background-color: rgb(68, 138, 83);
+}
+
 .tech-skills-title {
   text-align: center;
   font-size: 22px;
@@ -87,7 +95,7 @@ body {
   color: blue;
 }
 .tech-skills-text3 {
-  color: green;
+  color: rgb(247, 18, 178);
   font-size: 20px;
 }
 .tech-skills-text4 {
