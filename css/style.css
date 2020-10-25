@@ -1,116 +1,70 @@
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Montserrat Alternates", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
 }
 
-#top {
+header {
+  background-color: rgb(250, 245, 245);
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+h1 {
+  display: block;
+  font-family: "Great Vibes", cursive;
   text-align: center;
 }
 
-#logo {
-  color: white;
-  background-color: rgb(235, 113, 113);
-  display: inline-block;
-  font-size: 32px;
-  font-weight: bold;
-  padding: 8px;
-  margin-top: 16px;
-  text-align: center;
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
 }
 
-#logo-name {
-  font-size: 32px;
-  font-weight: bold;
-  margin: 16px;
-  text-align: center;
+section {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: ;
 }
 
-#navigation a {
-  color: grey;
-  padding: 20px;
-}
-#navigation a:hover {
-  color: rgb(235, 113, 113);
-}
-
-#image img {
-  width: 100%;
-  margin-top: 16px;
-  margin-bottom: 16px;
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-#main {
-  font-size: 30px;
-  width: 800px;
-  margin: auto;
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-#about-me p {
-  font-size: 30px;
+.navi {
+  display: flex;
+  align-items: center;
 }
 
-.second {
-  background-color: rgb(146, 85, 85);
+.logo {
+  margin-right: 30px;
 }
 
-#hobbys {
-  background-color: rgb(68, 138, 83);
+.menu {
+  display: flex;
 }
 
-.tech-skills-title {
-  text-align: center;
-  font-size: 22px;
-  font-weight: 700;
-  line-height: 24px;
-  padding-left: 70px;
-  margin: auto;
+.menu-item:not(:last-child) {
+  margin-right: 30px;
 }
 
-.about-center {
-  text-align: left;
-}
-.tech-skills-container {
-  width: 330px;
-  height: 280px;
-  margin-top: 30px;
+.flexbox {
+  display: flex;
+  justify-content: space-between;
 }
 
-.tech-skills-item {
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 24px;
-  margin-left: 15px;
-  color: sienna;
-}
-
-.tech-skills-text {
-  font-size: 20px;
-  color: chocolate;
-}
-.tech-skills-text6 {
-  font-size: 20px;
-  color: rgb(145, 24, 125);
-}
-.tech-skills-text2 {
-  font-size: 20px;
-  color: blue;
-}
-.tech-skills-text3 {
-  color: rgb(247, 18, 178);
-  font-size: 20px;
-}
-.tech-skills-text4 {
-  color: brown;
-  font-size: 20px;
-}
-.tech-skills-text5 {
-  color: red;
-  font-size: 20px;
-}
-
-.myau {
-  width: 50%;
-}
-
-#footer {
-  text-align: center;
+.text-foto {
+  width: calc(100% - 30px) / 2;
 }
