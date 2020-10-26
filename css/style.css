@@ -5,7 +5,7 @@ body {
 }
 
 header {
-  background-color: rgb(250, 245, 245);
+  background-color: rgb(238, 213, 213);
   padding-top: 30px;
   padding-bottom: 30px;
 }
@@ -14,19 +14,29 @@ h1 {
   display: block;
   font-family: "Great Vibes", cursive;
   text-align: center;
+  padding-bottom: 70px;
 }
 
 h1,
 h2,
 h3 {
   margin: 0;
-  padding: 0;
 }
 
 section {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  background-color: ;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background-color: rgba(206, 240, 193, 0.993);
+}
+
+a {
+  text-decoration: none;
+  color: rgb(64, 71, 71);
+}
+
+a:hover,
+a:focus {
+  color: rgb(243, 13, 13);
 }
 
 .container {
@@ -65,6 +75,92 @@ section {
   justify-content: space-between;
 }
 
-.text-foto {
-  width: calc(100% - 30px) / 2;
+.content-box {
+  width: calc((100% - 30px) / 2);
+  justify-content: space-between;
+}
+
+footer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: rgb(228, 186, 186);
+}
+
+.logo-map {
+  display: flex;
+  align-items: center;
+}
+
+.social-link {
+  display: flex;
+}
+
+.social-link li:not(:last-child) {
+  margin-right: 30px;
+}
+
+.hobby {
+  text-align: center;
+}
+
+.hobby-item:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.hobby-item {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-left: 15px;
+  color: sienna;
+}
+
+.text {
+  font-size: 28px;
+  padding: 10px;
+  color: chocolate;
+  margin-bottom: 10px;
+}
+.text6 {
+  font-size: 28px;
+  padding: 10px;
+  color: rgb(145, 24, 125);
+  margin-bottom: 10px;
+}
+.text2 {
+  font-size: 28px;
+  color: blue;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.text3 {
+  color: rgb(247, 18, 178);
+  font-size: 28px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.text4 {
+  color: brown;
+  font-size: 28px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.text5 {
+  color: red;
+  font-size: 28px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 26px;
+  padding: 50px 50px;
+  border-radius: 20px;
+  border-color: transparent;
+  background-color: rgb(243, 17, 17);
+}
+
+.error {
+  text-align: center;
 }
